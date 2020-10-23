@@ -43,5 +43,5 @@ def checkout(cart, coupons)
   else
     total = subtotal
   end
-  puts total
+  return total
 end
