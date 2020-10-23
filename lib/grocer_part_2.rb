@@ -40,6 +40,8 @@ def checkout(cart, coupons)
   subtotal = item_prices.sum
   if subtotal > 100
      total = subtotal - (subtotal * 0.1)
-   end
-   total
- end
+  else
+    total = subtotal
+  end
+  puts total
+end
